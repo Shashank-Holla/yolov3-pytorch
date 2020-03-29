@@ -12,9 +12,11 @@ Yolo stands for You Only Look Once. Its an object detector that uses features le
 - Clone detector repository.
 
 - As this code now contains only detector module, please download weights file from the official site-
+
 `wget https://pjreddie.com/media/files/yolov3.weights` 
 
 The following can be executed to run the model-
+
 `python detector.py --images images/ --results results`
 
 Here, `--images` flag defines the folder which contains image or multiple images. `--results` flag is the destination for the processed images.
@@ -32,7 +34,14 @@ Here, `--images` flag defines the folder which contains image or multiple images
 The following table contains functionalities and their corresponding module names.
 | Functionality | Module Name |
 |---------------|-------------|
-| darknet       | Building yolov3 model. Load model's weights |
+| darknet       | Build yolov3 model. Load model's weights |
+| detector      | Load and execute detection for images    |
+| util          | Utility for functions such as bounding box, apply threshold and NMS etc.|
+
+
+## Detection example
+
+![detection_image](https://github.com/Shashank-Holla/yolov3-pytorch/blob/master/results/results_streets-cars.jpg)
 
 ## Reference
 
