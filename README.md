@@ -43,12 +43,12 @@ The following table contains functionalities and their corresponding module name
 
 Shared below is a sample run results-
 
-----------------------------------------------------------
+
 streets-cars.jpg     predicted in  0.095 seconds
 Objects Detected:    car car car car car car car car car car stop sign
-----------------------------------------------------------
+
 SUMMARY
-----------------------------------------------------------
+
 Task                     : Time Taken (in seconds)
 
 Reading addresses        : 0.001
@@ -57,7 +57,7 @@ Detection (12 images)    : 1.390
 Output Processing        : 0.000
 Drawing Boxes            : 2.797
 Average time_per_img     : 1.306
-----------------------------------------------------------
+
 
 Object detection example-
 
