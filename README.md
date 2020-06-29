@@ -43,20 +43,55 @@ The following table contains functionalities and their corresponding module name
 
 Shared below is a sample run results-
 
-| | |
-|------------------|------------------------------|
-|streets-cars.jpg  |  predicted in  0.095 seconds |
-|Objects Detected  |   car car car car car car car car car car stop sign |
-
+```
+dog-cycle-car.jpg    predicted in  0.394 seconds
+Objects Detected:    bicycle truck dog
+----------------------------------------------------------
+cat@dog.jpg          predicted in  0.097 seconds
+Objects Detected:    cat dog
+----------------------------------------------------------
+giraffe.jpg          predicted in  0.098 seconds
+Objects Detected:    zebra giraffe giraffe
+----------------------------------------------------------
+herd_of_horses.jpg   predicted in  0.094 seconds
+Objects Detected:    horse horse horse horse
+----------------------------------------------------------
+streets-cars.jpg     predicted in  0.095 seconds
+Objects Detected:    car car car car car car car car car car stop sign
+----------------------------------------------------------
+catdog2.jpg          predicted in  0.081 seconds
+Objects Detected:    dog
+----------------------------------------------------------
+dogman.jpg           predicted in  0.081 seconds
+Objects Detected:    person dog
+----------------------------------------------------------
+horse.jpg            predicted in  0.085 seconds
+Objects Detected:    person person person person person traffic light horse horse horse horse horse horse
+----------------------------------------------------------
+dogman2.jpg          predicted in  0.073 seconds
+Objects Detected:    person dog
+----------------------------------------------------------
+londonstreet.jpg     predicted in  0.078 seconds
+Objects Detected:    person person person person person person car bus
+----------------------------------------------------------
+street.jpg           predicted in  0.085 seconds
+Objects Detected:    person person person person car car car car car motorbike truck truck fire hydrant
+----------------------------------------------------------
+surf.jpg             predicted in  0.074 seconds
+Objects Detected:    person surfboard
+----------------------------------------------------------
 SUMMARY
-|Task                    | Time Taken (in seconds) |
-|------------------------|-------------------------|
-|Reading addresses       | 0.001 |
-|Loading batch           | 11.009 |
-|Detection (12 images)   | 1.390 |
-|Output Processing       | 0.000 |
-|Drawing Boxes           | 2.797 |
-|Average time_per_img    | 1.306 |
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 11.009
+Detection (12 images)    : 1.390
+Output Processing        : 0.000
+Drawing Boxes            : 2.797
+Average time_per_img     : 1.306
+----------------------------------------------------------
+```
 
 
 
